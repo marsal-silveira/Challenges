@@ -1,0 +1,46 @@
+/* 
+  Localizable.strings
+  iStackOS
+
+  Created by Marsal on 14/03/16.
+  Copyright © 2016 Marsal Silveira. All rights reserved.
+*/
+
+/// Localized strings from Portuguese(Brazil) Language
+
+"[OK]" = "OK";
+"[Cancel]" = "Cancelar";
+"[Yes]" = "Sim";
+"[No]" = "Não";
+"[Close]" = "Fechar";
+
+"[Invalid Tag]" = "Tag '%@' é inválida.";
+"[Internet Connection Not Found]" = "Nenhuma conexão à Internet encontrada.";
+
+"[Asked Today]" = "perguntada %@ atrás";
+"[Asked Yesterday]" = "perguntada ontem as %@";
+"[Asked Month]" = "perguntada %@";
+
+"[Answered Today]" = "respondida %@ atrás";
+"[Answered Yesterday]" = "respondida ontem as %@";
+"[Answered Month]" = "respondida %@";
+
+"[Answers]" = "Respostas";
+
+"[hour]" = "hora";
+"[hours]" = "horas";
+"[minute]" = "minuto";
+"[minutes]" = "minutos";
+
+"[January]" = "Janeiro";
+"[February]" = "Fevereiro";
+"[March]" = "Março";
+"[April]" = "Abril";
+"[May]" = "Maio";
+"[June]" = "Junho";
+"[July]" = "Julho";
+"[August]" = "Agosto";
+"[September]" = "Setembro";
+"[October]" = "Outubro";
+"[November]" = "Novembro";
+"[December]" = "Dezembro";

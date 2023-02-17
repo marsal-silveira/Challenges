@@ -1,0 +1,54 @@
+
+/* Class = "UILabel"; text = "lblUserReputation"; ObjectID = "2m1-Yj-dTK"; */
+"2m1-Yj-dTK.text" = "lblUserReputation";
+
+/* Class = "UITabBarItem"; title = "UiKit"; ObjectID = "3gg-Vs-V0A"; */
+"3gg-Vs-V0A.title" = "UiKit";
+
+/* Class = "UITabBarItem"; title = "Swift"; ObjectID = "3oO-59-wxG"; */
+"3oO-59-wxG.title" = "Swift";
+
+/* Class = "UINavigationController"; title = "Objective-C"; ObjectID = "5bx-CS-3Rl"; */
+"5bx-CS-3Rl.title" = "Objective-C";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "5w1-XF-BcP"; */
+"5w1-XF-BcP.text" = "0";
+
+/* Class = "UILabel"; text = "answers"; ObjectID = "CSC-1L-dXB"; */
+"CSC-1L-dXB.text" = "answers";
+
+/* Class = "UILabel"; text = "lblCreationDate"; ObjectID = "FeS-yx-H2b"; */
+"FeS-yx-H2b.text" = "lblCreationDate";
+
+/* Class = "UILabel"; text = "lblTitle"; ObjectID = "Ksa-kc-vXQ"; */
+"Ksa-kc-vXQ.text" = "lblTitle";
+
+/* Class = "UINavigationController"; title = "Cocoa Touch"; ObjectID = "R4U-pc-2CE"; */
+"R4U-pc-2CE.title" = "Cocoa Touch";
+
+/* Class = "UITabBarItem"; title = "Cocoa Touch"; ObjectID = "RIs-TV-hOz"; */
+"RIs-TV-hOz.title" = "Cocoa Touch";
+
+/* Class = "UINavigationController"; title = "iPhone"; ObjectID = "RxK-cn-fnX"; */
+"RxK-cn-fnX.title" = "iPhone";
+
+/* Class = "UINavigationController"; title = "Swift"; ObjectID = "gh1-Jj-KVi"; */
+"gh1-Jj-KVi.title" = "Swift";
+
+/* Class = "UILabel"; text = "lblUserDisplay"; ObjectID = "gjk-A8-gIa"; */
+"gjk-A8-gIa.text" = "lblUserDisplay";
+
+/* Class = "UINavigationController"; title = "UiKit"; ObjectID = "i3m-DF-pF3"; */
+"i3m-DF-pF3.title" = "UiKit";
+
+/* Class = "UILabel"; text = "votes"; ObjectID = "nl9-Eb-rY3"; */
+"nl9-Eb-rY3.text" = "votes";
+
+/* Class = "UITabBarItem"; title = "iPhone"; ObjectID = "oF6-dw-MLp"; */
+"oF6-dw-MLp.title" = "iPhone";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "rWM-hn-n9k"; */
+"rWM-hn-n9k.text" = "0";
+
+/* Class = "UITabBarItem"; title = "Objective-C"; ObjectID = "rlG-4Z-oDR"; */
+"rlG-4Z-oDR.title" = "Objective-C";
