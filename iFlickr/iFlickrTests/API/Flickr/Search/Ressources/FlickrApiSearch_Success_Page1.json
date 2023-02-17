@@ -1,0 +1,55 @@
+{
+	"stat": "ok",
+	"photos": {
+		"total": 6,
+		"page": 1,
+		"pages": 2,
+		"perpage": 4,
+		"photo": [
+			{
+				"id": "51264245484",
+				"owner": "190935725@N02",
+				"secret": "c1d6e050ed",
+				"server": "65535",
+				"farm": 66,
+				"title": "Our newest beauty is now available",
+				"ispublic": 1,
+				"isfriend": 0,
+				"isfamily": 0
+			},
+			{
+				"id": "51262506851",
+				"owner": "126764883@N02",
+				"secret": "e987919d17",
+				"server": "65535",
+				"farm": 66,
+				"title": "Triathlon Carpentras 2021",
+				"ispublic": 1,
+				"isfriend": 0,
+				"isfamily": 0
+			},
+			{
+				"id": "51262694248",
+				"owner": "126764883@N02",
+				"secret": "273f795188",
+				"server": "65535",
+				"farm": 66,
+				"title": "Triathlon Carpentras 2021",
+				"ispublic": 1,
+				"isfriend": 0,
+				"isfamily": 0
+			},
+			{
+				"id": "51255899949",
+				"owner": "193178844@N07",
+				"secret": "24d1bfb24e",
+				"server": "65535",
+				"farm": 66,
+				"title": "Paris 2018",
+				"ispublic": 1,
+				"isfriend": 0,
+				"isfamily": 0
+			}
+		]
+	}
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="GalleryCell" id="5Ys-M2-ri1" customClass="GalleryCell" customModule="iFlickr" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DSx-mp-Zu6">
+                        <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+                        <color key="backgroundColor" red="0.72156862749999995" green="0.76078431369999999" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </imageView>
+                    <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="mDE-Mz-Npp">
+                        <rect key="frame" x="106.5" y="106.5" width="37" height="37"/>
+                    </activityIndicatorView>
+                    <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ptp-E0-he9" customClass="GradientView" customModule="iFlickr" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="175" width="250" height="75"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o7o-lz-jgY">
+                                <rect key="frame" x="8" y="38" width="234" height="29"/>
+                                <string key="text">First line ...
+Second line ...</string>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="o7o-lz-jgY" secondAttribute="trailing" constant="8" id="R3w-w3-JdA"/>
+                            <constraint firstItem="o7o-lz-jgY" firstAttribute="leading" secondItem="Ptp-E0-he9" secondAttribute="leading" constant="8" id="YSM-fS-XnO"/>
+                            <constraint firstAttribute="bottom" secondItem="o7o-lz-jgY" secondAttribute="bottom" constant="8" id="wvl-Mg-t2Q"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="mDE-Mz-Npp" firstAttribute="centerY" secondItem="5Ys-M2-ri1" secondAttribute="centerY" id="12C-Sz-F3h"/>
+                <constraint firstItem="DSx-mp-Zu6" firstAttribute="top" secondItem="5Ys-M2-ri1" secondAttribute="top" id="8Xi-hQ-2tM"/>
+                <constraint firstAttribute="bottom" secondItem="Ptp-E0-he9" secondAttribute="bottom" id="Cmi-CJ-qGQ"/>
+                <constraint firstItem="DSx-mp-Zu6" firstAttribute="leading" secondItem="5Ys-M2-ri1" secondAttribute="leading" id="Ssr-6f-D8K"/>
+                <constraint firstItem="Ptp-E0-he9" firstAttribute="leading" secondItem="5Ys-M2-ri1" secondAttribute="leading" id="TuD-uL-WEN"/>
+                <constraint firstAttribute="bottom" secondItem="DSx-mp-Zu6" secondAttribute="bottom" id="edc-5C-shB"/>
+                <constraint firstAttribute="trailing" secondItem="Ptp-E0-he9" secondAttribute="trailing" id="llW-sn-5Sl"/>
+                <constraint firstItem="mDE-Mz-Npp" firstAttribute="centerX" secondItem="5Ys-M2-ri1" secondAttribute="centerX" id="q9f-Dn-nvO"/>
+                <constraint firstAttribute="trailing" secondItem="DSx-mp-Zu6" secondAttribute="trailing" id="yUy-JW-Wrj"/>
+                <constraint firstItem="Ptp-E0-he9" firstAttribute="height" secondItem="5Ys-M2-ri1" secondAttribute="height" multiplier="0.3" id="yjA-kT-jM2"/>
+            </constraints>
+            <size key="customSize" width="259" height="336"/>
+            <connections>
+                <outlet property="gradientView" destination="Ptp-E0-he9" id="rxW-UI-RlN"/>
+                <outlet property="loadingView" destination="mDE-Mz-Npp" id="VAh-Md-FPD"/>
+                <outlet property="thumbnailImage" destination="DSx-mp-Zu6" id="tzy-KR-1KO"/>
+                <outlet property="titleLabel" destination="o7o-lz-jgY" id="bBH-Ct-Ya2"/>
+            </connections>
+            <point key="canvasLocation" x="-390.57971014492756" y="10.714285714285714"/>
+        </collectionViewCell>
+    </objects>
+</document>

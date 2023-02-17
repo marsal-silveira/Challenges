@@ -1,0 +1,33 @@
+{
+	"stat": "ok",
+	"photos": {
+		"total": 6,
+		"page": 2,
+		"pages": 2,
+		"perpage": 4,
+		"photo": [
+			{
+				"id": "51263303550",
+				"owner": "125089286@N04",
+				"secret": "b249d6f683",
+				"server": "65535",
+				"farm": 66,
+				"title": "Arribada a l'Ampolla en 2 dies i amb la sorpresa de ser el tercer classificat! - La meva primera CAT700s",
+				"ispublic": 1,
+				"isfriend": 0,
+				"isfamily": 0
+			},
+			{
+				"id": "51261381547",
+				"owner": "125089286@N04",
+				"secret": "03ba11c248",
+				"server": "65535",
+				"farm": 66,
+				"title": "Un tàndem a fer la CAT 700! - La meva primera CAT700s",
+				"ispublic": 1,
+				"isfriend": 0,
+				"isfamily": 0
+			}
+		]
+	}
+}

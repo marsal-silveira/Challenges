@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  iFlickr
+
+  Created by Marsal Silveira.
+*/
+
+// English [en]
+
+// General
+"appName" = "iFlickr";
+"ok" = "OK";
+
+// Errors
+"error.404" = "¯\\_(ツ)_/¯"; // just for fun...
+"error.general" = "Oops... something went wrong";
+"error.network.noConnection" = "Could not connect with Internet. Check your connection and try again";
+"error.deconding.wrongFormat" = "The data couldn’t be read because it's in a wrong format";
+"error.deconding.keyNotFound" = "Expected key \"%@\" not found for entity \"%@.\"";
+
+// Gallery
+"gallery.navigation.title" = "iFlickr";
+"gallery.searchBar.placeholder" = "Flickr's Photo Searcher";
+"gallery.viewState.idle.title" = "Type the word or phrase into the \"Search box\" and then press \"Search\"";
+"gallery.viewState.noResultsFound.title" = "Sorry! No Result Found";
+"gallery.viewState.noResultsFound.subtitle" = "Try another word";

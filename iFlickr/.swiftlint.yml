@@ -1,0 +1,44 @@
+# paths to ignore during linting. Takes precedence over `included`.
+excluded: 
+  - Pods
+  - iFlickr/Resources/R.generated.swift
+
+# Disable some rules enabled by default
+disabled_rules:
+  - nesting
+  - unused_closure_parameter
+  - switch_case_alignment
+
+  # custom rules
+line_length: 
+  warning: 175
+  error: 200
+  ignores_comments: true
+  ignores_urls: true
+
+function_body_length:
+  warning: 50
+  error: 75
+
+file_length:
+  warning: 500
+  error: 500
+
+identifier_name:
+  allowed_symbols: "_"
+  excluded: "id"
+  min_length: 2
+  max_length: 
+    warning: 50
+    error: 75
+
+type_name:
+  allowed_symbols: "_"
+  min_length: 2
+  max_length: 
+    warning: 50
+    error: 75
+
+large_tuple:
+  - 3
+  - 4

@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  iFlickr
+
+  Created by Marsal Silveira.
+*/
+
+// Portuguese (Portugal) [pt]
+
+// General
+"appName" = "iFlickr";
+"ok" = "OK";
+
+// Errors
+"error.404" = "¯\\_(ツ)_/¯"; // just for fun...
+"error.general" = "Oops... algo deu errado";
+"error.network.noConnection" = "Não foi possível conectar com a Internet. Verifique sua conexão e tente novamente";
+"error.deconding.wrongFormat" = "Não foi possível extrair os dados porque estão em format inválido";
+"error.deconding.keyNotFound" = "Chave esperada \"%@\" não encontrada para a entidade \"%@\".";
+
+// Gallery
+"gallery.navigation.title" = "iFlickr";
+"gallery.searchBar.placeholder" = "Buscador de Fotos do Flickr";
+"gallery.viewState.idle.title" = "Informe uma palavra ou frase na caixa de pesquisa, então pressione \"Buscar\"";
+"gallery.viewState.noResultsFound.title" = "Desculpa! Nenhum Resultado Encontrado";
+"gallery.viewState.noResultsFound.subtitle" = "Tente outra palavra";
